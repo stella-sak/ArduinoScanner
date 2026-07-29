@@ -2,15 +2,15 @@
 
 ## **Απαραίτητος Εξοπλισμός**
 
-Arduino UNO R3
-HC-SR04 ultrasonic sensor
-Servo motor (SG90 MicroServo)
-Green, yellow, red LEDs
-Buzzer
-3 Resistors 220Ω
-Jumper wires
-Breadboard
-USB cables
+- Arduino UNO R3
+- HC-SR04 ultrasonic sensor
+- Servo motor (SG90 MicroServo)
+- Green, yellow, red LEDs
+- Buzzer
+- 3 Resistors 220Ω
+- Jumper wires
+- Breadboard
+- USB cables
 
 
 
