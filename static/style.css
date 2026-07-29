@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #666;
+}
+
+.panel {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.status-panel {
+    text-align: center;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 18px 32px;
+    border-radius: 999px;
+    font-size: 32px;
+    font-weight: bold;
+    background: #ddd;
+    color: #222;
+}
+
+.status-description {
+    margin-bottom: 0;
+    color: #555;
+}
+
+.status-safe {
+    background: #d8f5d0;
+    color: #146b18;
+}
+
+.status-warning {
+    background: #fff0bd;
+    color: #7a5500;
+}
+
+.status-stop,
+.status-emergency-stop {
+    background: #ffd2d2;
+    color: #8a0000;
+}
+
+.status-disarmed {
+    background: #e0e0e0;
+    color: #444;
+}
+
+.status-no-data,
+.status-no-reading {
+    background: #e5e5ff;
+    color: #333377;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: #fafafa;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.wide-card {
+    grid-column: span 2;
+}
+
+
+.label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+button {
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+button.danger {
+    background: #b00020;
+}
+
+pre {
+    background: #111;
+    color: #00ff88;
+    padding: 16px;
+    border-radius: 8px;
+    min-height: 60px;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wide-card {
+        grid-column: span 1;
+    }
+
+    .status-badge {
+        font-size: 24px;
+    }
+}
