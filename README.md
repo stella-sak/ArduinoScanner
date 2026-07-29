@@ -54,8 +54,12 @@ Arduino pins που θα χρειαστούμε: 5V, GND, D2, D3, D4, D5, D6, D9
    .\.venv\Scripts\Activate.ps1
    ```
 7. Κατεβάστε τα απαραίτητα Python packages:
+   ```powershell
    pip install -r requirements.txt
+   ```
 8. Ανοίξτε τον server:
+   ```powershell
    python app.py
+   ```
 9. Μεταβείτε στη διεύθυνση: http://127.0.0.1:5000
 
