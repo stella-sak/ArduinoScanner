@@ -49,8 +49,10 @@ Arduino pins που θα χρειαστούμε: 5V, GND, D2, D3, D4, D5, D6, D9
 4. Κλείστε το Serial Monitor.
 5. Ανοίξτε το app.py αρχείο και αλλάξτε αν χρειάζεται το COM port: SERIAL_PORT = "COM3".
 6. Ενεργοποιήστε το virtual environment στη python με τις εξής εντολές στo terminal:
-   ```python -m venv .venv
-   .\.venv\Scripts\Activate.ps1```
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
 7. Κατεβάστε τα απαραίτητα Python packages:
    pip install -r requirements.txt
 8. Ανοίξτε τον server:
